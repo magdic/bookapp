@@ -1,4 +1,7 @@
 ## Book App Training  :book: 
-:shipit:
+
+### Languajes: 
+* :uk: 
+* :es:
 Start to parse the PSD to HTML.
 
