@@ -1,3 +1,3 @@
-:octocat: ## Book App Training  :octocat: 
+## Book App Training  :octocat: 
 Start to parse the PSD to HTML.
 
