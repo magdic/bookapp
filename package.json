@@ -1,0 +1,27 @@
+{
+  "name": "bookapp",
+  "version": "1.0.0",
+  "description": "Book App for...",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magdic/bookapp.git"
+  },
+  "keywords": [
+    "Book",
+    "app"
+  ],
+  "author": "Magdiel Cordero",
+  "license": "CC",
+  "bugs": {
+    "url": "https://github.com/magdic/bookapp/issues"
+  },
+  "homepage": "https://github.com/magdic/bookapp",
+  "devDependencies": {
+    "bower": "~1.2.8"
+  },
+  "dependencies": {}
+}

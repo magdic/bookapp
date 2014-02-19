@@ -1,0 +1,22 @@
+{
+  "name": "bookapp",
+  "version": "1.0.0",
+  "homepage": "https://github.com/magdic/bookapp",
+  "authors": [
+    "Magdiel <luisc@thehangar.cr>"
+  ],
+  "description": "Books app",
+  "main": "index.html",
+  "license": "FREE",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "skeleton-sass": "*"
+  }
+}
