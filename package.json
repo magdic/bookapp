@@ -21,7 +21,11 @@
   },
   "homepage": "https://github.com/magdic/bookapp",
   "devDependencies": {
-    "bower": "~1.2.8"
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-contrib-sass": "~0.7.2",
+    "grunt-bower-install": "~1.0.0",
+    "grunt-contrib-cssmin": "~0.8.0"
   },
   "dependencies": {}
 }

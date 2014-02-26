@@ -1,0 +1,401 @@
+/**
+ * SASS/SCSS/Compass Transcription of Skeleton Responsive Grid
+ * originally authored by Dave Gamache. This translation offers
+ * mixins that support fluid and as well as fixed grids to supplement
+ * the work that Dave Gamache has done.
+ * @author Dennis Thompson <http://www.atomicpages.net>
+ * @copyright Copyright (c) 2013 AtomicPages LLC
+ * @license MITIGATED
+ * @version 1.6.1
+ */
+@font-face {
+  font-family: "DIN";
+  src: url("DIN-Light.ttf"), url("DINPro-Light.otf"); }
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("glyphicons-halflings-regular.eot");
+  src: url("glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("glyphicons-halflings-regular.woff") format("woff"), url("glyphicons-halflings-regular.ttf") format("truetype"); }
+
+.top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #323a45;
+  z-index: 10;
+  height: 54px;
+  margin-bottom: 20px; }
+
+.but-log {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 7px 13px;
+  font-size: 13px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  right: 180px;
+  position: relative;
+  text-shadow: none;
+  bottom: 0px; }
+  .but-log:hover {
+    background-image: none;
+    border: 1px solid #137151;
+    background-color: #19986d;
+    text-shadow: none; }
+
+#login {
+  padding-left: 3%; }
+  #login form {
+    margin-top: 7px; }
+  #login p {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.3em; }
+
+.pull-right {
+  float: right !important; }
+
+.navbar-text {
+  margin-left: -310px;
+  /* margin-right: 150px; */
+  float: left;
+  margin-top: 15.5px;
+  /* margin-bottom: 12.5px; */ }
+
+#logo a {
+  color: white;
+  float: left;
+  padding: 9.5px 8%;
+  margin-top: 0px;
+  font-size: 1.9em;
+  line-height: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "DIN";
+  text-transform: uppercase;
+  letter-spacing: -3px; }
+
+.intro-welcome {
+  padding: 40px 15px;
+  text-align: center; }
+  .intro-welcome h2 {
+    font-weight: bold; }
+
+.books-container {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+.books-container:before, .books-container:after {
+  content: " ";
+  display: table; }
+
+.dropdown .glyphicon {
+  position: relative;
+  bottom: 7px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #f1f1f3;
+  font-size: 1.8em;
+  padding: 16px;
+  margin-left: -18.1em; }
+
+.js-display-list .glyphicon {
+  position: relative;
+  bottom: 64px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #f1f1f3;
+  font-size: 1.8em;
+  padding: 15px;
+  margin-left: -15.9em; }
+
+.js-display-block .glyphicon {
+  position: relative;
+  bottom: 131px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #f1f1f3;
+  font-size: 1.8em;
+  padding: 15px;
+  margin-left: -13.8em; }
+
+.navbar .glyphicon {
+  font-size: 1.8em; }
+
+.navbar-collapse .navbar-nav.navbar-right:last-child {
+  margin-right: -15px; }
+
+.navbar-right {
+  float: right !important; }
+
+.navbar-nav {
+  float: left;
+  margin: 0; }
+
+.navbar-nav {
+  margin: 6.25px -15px; }
+
+.nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }
+
+.nav:before, .nav:after {
+  content: " ";
+  display: table; }
+
+.nav:after {
+  clear: both; }
+
+.glyphicon:empty {
+  width: 1em; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #f1f1f3; }
+
+.navbar-nav > li > a {
+  line-height: 20px; }
+
+form .form-control {
+  margin-left: -99%;
+  margin-top: 9px; }
+
+.dropdown-menu {
+  position: relative;
+  z-index: 100;
+  margin-bottom: 10px;
+  font: normal 11px tahoma; }
+
+.glyphicon-search:before {
+  content: "\e003"; }
+
+.glyphicon-search:hover {
+  content: "\e003";
+  color: #323a45;
+  background: #ffffff; }
+
+.glyphicon-th-list:before {
+  content: "\e012"; }
+
+.glyphicon-th-list:hover {
+  content: "\e003";
+  color: #323a45;
+  background: #ffffff; }
+
+.glyphicon-th-large:before {
+  content: "\e010"; }
+
+.glyphicon-th-large:hover {
+  content: "\e003";
+  color: #323a45;
+  background: #ffffff; }
+
+.glyphicon:empty {
+  width: 1em; }
+
+.glyphicon-user:before {
+  content: "\e008"; }
+
+.link-with-popup {
+  position: relative;
+  z-index: 100;
+  margin-bottom: 10px;
+  font: normal 11px tahoma; }
+
+.link-with-popup:hover {
+  z-index: 200; }
+
+.link {
+  /* stylish design */
+  width: 0px;
+  cursor: pointer; }
+
+.link:active + .popup {
+  display: block; }
+
+.popup {
+  position: relative;
+  margin-left: -32.7em;
+  /* width: 400px; */
+  bottom: 30px;
+  display: none; }
+
+.popup:hover {
+  display: block; }
+
+.popup .box {
+  position: absolute;
+  top: 0;
+  left: 130px;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  padding: 10px 20px;
+  width: 150px; }
+
+.username {
+  width: 30px;
+  position: relative;
+  display: block;
+  margin-left: 5.2em;
+  bottom: 25px; }
+
+.books .book-item img {
+  width: 100%; }
+
+.books .book-item {
+  text-align: center;
+  margin-bottom: 30px; }
+
+.col-lg-4 {
+  width: 30.333333%;
+  padding: 10px;
+  float: left; }
+
+.btn-book {
+  background-color: #1fbb86;
+  font-size: 18px;
+  color: white;
+  text-align: left;
+  display: block;
+  padding: 15px 20px;
+  border-radius: 0; }
+
+.btn-book .glyphicon-user {
+  margin-right: 20px; }
+
+.btn-book .glyphicon-book.disable {
+  color: black; }
+
+.btn-book .glyphicon-book {
+  float: right; }
+
+.glyphicon-book:before {
+  content: "\e043"; }
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+.row:before, .row:after {
+  content: " ";
+  display: table; }
+
+.row:after {
+  clear: both; }
+
+.books .book-item > div {
+  border: 1px solid #eaedf1;
+  padding: 20px 20px 0 20px;
+  border-radius: 2px; }
+
+/* MOBILE (LANDSCAPE)
+ * ------------------------------------------------ */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .but-log {
+    right: 42%; }
+
+  .navbar-text {
+    margin-left: -165px; }
+
+  .dropdown .glyphicon {
+    margin-left: -3.6em;
+    top: 40px; }
+
+  .js-display-list .glyphicon {
+    margin-left: -1.5em;
+    bottom: 17px; }
+
+  .js-display-block .glyphicon {
+    margin-left: 0.5em;
+    bottom: 84px; }
+
+  .top {
+    height: 100px; }
+
+  form .form-control {
+    margin-left: -32%; }
+
+  .popup {
+    margin-left: -13.7em;
+    bottom: -15px; }
+
+  img {
+    margin-left: 0; }
+
+  .col-lg-4 {
+    width: 100%;
+    padding: 0; } }
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  /* add code here */
+  .but-log {
+    right: 13%; }
+
+  .navbar-text {
+    margin-left: -115px; }
+
+  #logo a {
+    margin-left: -30px; }
+
+  .dropdown .glyphicon {
+    margin-left: -1.5em;
+    top: 37px; }
+
+  .js-display-list .glyphicon {
+    margin-left: 0.4em;
+    bottom: 20px; }
+
+  .js-display-block .glyphicon {
+    margin-left: 2.3em;
+    bottom: 87px; }
+
+  .top {
+    height: 100px; }
+
+  form .form-control {
+    margin-left: -47%;
+    margin-top: -24px; }
+
+  .popup {
+    margin-left: -8.7em;
+    bottom: -49px; }
+
+  img {
+    margin-left: 0; }
+
+  .navbar-text {
+    margin-left: -138px; }
+
+  .col-lg-4 {
+    width: 100%;
+    padding: 0px;
+    float: left; } }
