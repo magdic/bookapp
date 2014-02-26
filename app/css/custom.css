@@ -289,6 +289,17 @@ form .form-control {
   padding: 15px 20px;
   border-radius: 0; }
 
+.btn-book .glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 .btn-book .glyphicon-user {
   margin-right: 20px; }
 
