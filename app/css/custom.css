@@ -280,14 +280,24 @@ form .form-control {
   padding: 10px;
   float: left; }
 
+a.btn-book {
+  color: #ffffff; }
+
 .btn-book {
   background-color: #1fbb86;
+  color: #ffffff;
   font-size: 18px;
-  color: white;
+  font-weight: bold;
   text-align: left;
   display: block;
   padding: 15px 20px;
-  border-radius: 0; }
+  border-radius: 0;
+  text-decoration: none; }
+  .btn-book:hover {
+    background-color: #E1E1E1;
+    color: #898989; }
+  .btn-book:hover .glyphicon-user {
+    color: #898989; }
 
 .btn-book .glyphicon {
   position: relative;
@@ -298,13 +308,14 @@ form .form-control {
   font-weight: normal;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffffff; }
 
 .btn-book .glyphicon-user {
   margin-right: 20px; }
 
 .btn-book .glyphicon-book.disable {
-  color: black; }
+  color: #000000; }
 
 .btn-book .glyphicon-book {
   float: right; }
@@ -329,7 +340,7 @@ form .form-control {
   border-radius: 2px; }
 
 /* MOBILE (LANDSCAPE)
- * ------------------------------------------------ */
+* ------------------------------------------------ */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .but-log {
     right: 42%; }
@@ -364,7 +375,13 @@ form .form-control {
 
   .col-lg-4 {
     width: 100%;
-    padding: 0; } }
+    padding: 0; }
+
+  .container {
+    width: auto; }
+
+  .container .sixteen.columns {
+    width: auto; } }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
   /* add code here */
@@ -409,4 +426,10 @@ form .form-control {
   .col-lg-4 {
     width: 100%;
     padding: 0px;
-    float: left; } }
+    float: left; }
+
+  .container .sixteen.columns {
+    width: auto; }
+
+  .container {
+    width: auto; } }
