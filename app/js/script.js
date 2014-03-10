@@ -5,11 +5,11 @@
 **
 */
 
-var par = document.getElementById("displaying-list");
-par.addEventListener("click",function(e){
+var setList = document.getElementById("displaying-list");
+setList.addEventListener("click",function(e){
 	document.getElementById("books-containers").className = 'books grid-list';
 },false);
-var calder = document.getElementById("displaying-blocks");
-calder.addEventListener("click",function(e){
+var setBlocks = document.getElementById("displaying-blocks");
+setBlocks.addEventListener("click",function(e){
 	document.getElementById("books-containers").className = 'books';
 },false);
