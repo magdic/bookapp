@@ -280,6 +280,24 @@ form .form-control {
   padding: 10px;
   float: left; }
 
+.books.grid-list .col-lg-4, .books.grid-list .col-md-4, .books.grid-list .col-sm-6 {
+  width: 100%; }
+
+.books.grid-list .book-item img {
+  width: 160px;
+  float: left;
+  margin-top: -10px;
+  margin-left: -10px; }
+
+.grid-list h2 {
+  text-align: left;
+  left: 25px;
+  position: relative; }
+.grid-list p {
+  text-align: left;
+  left: 25px;
+  position: relative; }
+
 a.btn-book {
   color: #ffffff; }
 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+</head>
+<style type="text/css">
+
+.newclass {
+	color:red;
+}
+
+</style>
+
+
+<body>
+<a id="murci" href="#">Murci</a>
+<a id="calder" href="#">Calder</a>
+<p id="ident">My color is black</p>
+
+<script type="text/javascript">
+	var par = document.getElementById("murci");
+		par.addEventListener("click",function(e){
+    	document.getElementById("ident").className = 'newclass';
+	},false);
+		var calder = document.getElementById("calder");
+		calder.addEventListener("click",function(e){
+    	document.getElementById("ident").className = '';
+	},false);
+	// function change()
+	//     {
+	//         document.getElementById("ident").className = 'newclass';
+	//     }
+</script>
+
+</body>
+</html>
